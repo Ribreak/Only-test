@@ -1,0 +1,41 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+
+:root {
+    --accent-color: #42567A;
+    --secondary-color: #3877EE;
+    --background-color: #F4F5F9;
+    --swiper-pagination-color: var(--accent-color);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: var(--background-color);
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: 
+        repeating-linear-gradient(
+                to right,
+                #42567a1a 0,
+                #42567a1a 1px,
+                transparent 1px,
+                transparent 280px),
+        repeating-linear-gradient(
+                to right,
+                rgba(255, 0, 0, 0.15) 0,
+                rgba(255, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 70px);
+                
+    }
+}

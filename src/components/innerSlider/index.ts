@@ -1,0 +1,1 @@
+export { InnerSlider } from './InnerSlider';
