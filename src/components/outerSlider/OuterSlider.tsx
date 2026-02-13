@@ -78,6 +78,10 @@ export const OuterSlider = ({ setSlide }: outerSliderProps) => {
                     swiper.navigation.destroy();
                     swiper.navigation.init();
                     swiper.navigation.update();
+                    swiper.pagination.destroy();
+                    swiper.pagination.init();
+                    swiper.pagination.render()
+                    swiper.pagination.update();
                 }}
                 breakpoints={{
                     768: {
