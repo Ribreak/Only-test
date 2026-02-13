@@ -1,12 +1,28 @@
-Only-test-task
+# Only-test-task
 [Тестовое задание от Only.](github.ribreak.io)
 
-Запуск
-Clone the repository:
+## Запуск
+
+1. Clone the repository:
+   
+```bash
 git clone https://github.com/Ribreak/only-test.git
-Navigate to the project directory:
+```
+
+2. Navigate to the project directory:
+
+```bash
 cd only_test
-Install dependencies:
+```
+
+3. Install dependencies:
+
+```bash
 npm install
-Start app
+```
+
+4. Start app
+
+```bash
 npm start
+```
