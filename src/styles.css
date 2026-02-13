@@ -1,7 +1,7 @@
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
-@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular&display=swap);
 
 :root {
     --accent-color: #42567A;
