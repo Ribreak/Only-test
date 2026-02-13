@@ -1,5 +1,5 @@
 # Only-test-task
-[Тестовое задание от Only.](ribreak.github.io)
+[Тестовое задание от Only.](https://ribreak.github.io/Only-test/)
 
 ## Запуск
 
